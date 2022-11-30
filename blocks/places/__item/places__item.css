@@ -1,0 +1,6 @@
+.places__item {
+    display: grid;
+    grid-template-columns: minmax(460px, 460px) minmax(456px, 484px);
+    gap: 48px 40px;
+    max-width: 984px;
+}
