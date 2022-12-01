@@ -5,3 +5,10 @@
     padding: 28px 48px 0px 48px;
     max-width: 1184px;
 }
+
+@media (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+

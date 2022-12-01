@@ -9,3 +9,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+@media (max-width: 1024px) {
+    .footer{
+        min-width: 928px;
+    }
+}
