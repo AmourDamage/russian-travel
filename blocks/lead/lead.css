@@ -4,7 +4,21 @@
     justify-content: center;
     align-items: center;
     max-width: 984px;
-    margin: 0 auto;
-
-   
+    padding: 0px 148px;
 }
+
+@media (max-width: 1024px) {
+    .lead {
+        padding: 0px 48px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        padding: 0;
+    }
+}
+

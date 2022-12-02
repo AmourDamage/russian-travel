@@ -59,3 +59,21 @@
 }
 
 
+@media (max-width: 768px) {
+    .cover__link {
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__link {
+
+        max-width: 320px;
+        min-height: 200px;
+        
+    }
+}
+
+
+
