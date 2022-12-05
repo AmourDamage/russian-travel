@@ -1,8 +1,0 @@
-/* .modified {
-    opacity: 0.3;
-} */
-
-.modified:hover {
-    opacity: 0.3;
-    transition: opacity 0.6s ease-in;
-}

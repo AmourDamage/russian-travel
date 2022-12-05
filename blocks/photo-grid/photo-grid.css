@@ -7,7 +7,7 @@
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    grid-gap: 16px;
+    gap: 16px;
     padding: 0 48px;
 }
 
@@ -16,7 +16,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         max-width: 928px;
-        grid-gap: 14px;
+        gap: 14px;
     }
 }
 
@@ -27,7 +27,7 @@
         grid-template-columns: minmax(352px, 352px) minmax(352px, 352px);
         
         max-width: 720px;
-        grid-gap: 16px;
+        gap: 16px;
         padding: 0 24px;
     }
 }
@@ -37,7 +37,7 @@
     .photo-grid {
         grid-template-columns: minmax(288px, 288px);
         padding: 0 16px;
-        grid-gap: 12px;
+        gap: 12px;
        
  }
 

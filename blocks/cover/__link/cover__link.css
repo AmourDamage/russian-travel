@@ -1,29 +1,17 @@
 .cover__link {
     text-decoration: none;
     position: relative;
-    
     max-width: 1184px;
     width: 100%;
-
     min-height: 740px;
-   
-
-    
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    
-    
-
-    
- 
 }
 
 
@@ -55,8 +43,11 @@
 @media (max-width: 1024px) {
     .cover__link {
         max-width: 1024px;
+        min-height: 640px;
     }
 }
+
+
 
 
 @media (max-width: 768px) {

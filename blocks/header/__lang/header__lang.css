@@ -1,6 +1,8 @@
 .header__lang {
     display: flex;
     gap: 16px;
+    align-items: center;
+    
 }
 
 @media (max-width: 767px) {
@@ -9,3 +11,4 @@
         
     }
 }
+
